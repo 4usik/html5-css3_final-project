@@ -545,10 +545,15 @@ a {
     padding: 0;
 }
 
+.latest-projects__figure:hover img {
+    filter: brightness(40%);
+}
+
 .latest-projects__figure:hover figcaption {
     border: 1px solid #362f2d;
     background-color: #362f2d;
 }
+
 .latest-projects__figure:hover figcaption:before {
 	content: "";
 	display: block;
@@ -989,6 +994,12 @@ summary:focus {
 .recent-post__fig-3 {
 	padding: 20px 300px 160px 20px;
 	background: url(../img/recent-posts-3.jpg) 0 0 no-repeat;
+}
+
+.recent-post__fig:hover .recent-post__fig-1,
+.recent-post__fig:hover .recent-post__fig-2,
+.recent-post__fig:hover .recent-post__fig-3 {
+	filter: brightness(40%);
 }
 
 .recent-post__left-right {
