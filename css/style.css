@@ -23,6 +23,11 @@
 	src: url(../fonts/raleway/raleway-semibold.ttf);
 }
 
+@font-face {
+	font-family: montserrat-ultralight;
+	src: url(../fonts/montserrat/montserrat-extralight.ttf);
+}
+
 /*block-name__elem-name_mod-name_mod-val*/
 
 * {
@@ -82,7 +87,7 @@ a {
     padding: 20px 15px;
     text-decoration: none;
     color: #ffffff;
-    font-family: Montserrat;
+    font-family: Montserrat, arial, sans-serif;
     font-size: 14px;
     font-weight: 300;
 }
@@ -126,7 +131,7 @@ a {
 	background-color: transparent;
 	border: none;
 	color: #ffffff;
-	font-family: Montserrat;
+	font-family: Montserrat, arial, sans-serif;
     font-size: 14px;
     font-weight: 300;
 }
@@ -189,7 +194,7 @@ a {
     margin: 0;
     padding: 0 0 15px 0;
     color: #ffffff;
-    font-family: Raleway;
+    font-family: Raleway, arial, sans-serif;
     font-size: 36px;
     font-weight: 500;
 }
@@ -198,7 +203,7 @@ a {
     margin: 0;
     padding: 0 0 20px 0;
     color: #ffffff;
-    font-family: raleway-extrabold;
+    font-family: raleway-extrabold, arial, sans-serif;
     font-size: 52px;
     font-weight: 400;
 }
@@ -207,7 +212,7 @@ a {
     margin: 0;
     padding: 10px;
     color: #ffffff;
-    font-family: Montserrat;
+    font-family: Montserrat, arial, sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
@@ -223,7 +228,7 @@ a {
     background-color: #998675;
 
     color: #ffffff;
-    font-family: raleway-extrabold;
+    font-family: raleway-extrabold, arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 23px;
@@ -329,7 +334,7 @@ a {
 .marketing__title {
     padding: 0;
     color: #555555;
-    font-family: raleway-semibold;
+    font-family: raleway-semibold, arial, sans-serif;
     font-size: 22px;
     font-weight: 400;
 }
@@ -341,7 +346,7 @@ a {
     padding: 20px 0 25px 0;
     margin: 0;
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: Montserrat, arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -359,7 +364,7 @@ a {
 .realization-ideas__title {
     margin: 0;
     color: #555555;
-    font-family: raleway-semibold;
+    font-family: raleway-semibold, arial, sans-serif;
     font-size: 30px;
     font-weight: 400;
 }
@@ -367,7 +372,7 @@ a {
 .realization-ideas__txt {
     margin: 20px 570px 40px 570px;
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: Montserrat, arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -416,7 +421,7 @@ a {
 
 .aside__span {
     color: #ffffff;
-    font-family: Raleway;
+    font-family: Raleway, arial, sans-serif;
     font-size: 28px;
     font-weight: 400;
 }
@@ -430,7 +435,7 @@ a {
     margin: 8px 0 0 0;
 	width: 50%;
     color: #615855;
-    font-family: Montserrat;
+    font-family: Montserrat, arial, sans-serif;
     font-size: 18px;
     font-weight: 300;
     text-align: left;
@@ -445,7 +450,7 @@ a {
     background-color: #998675;
     
     color: #ffffff;
-    font-family: raleway-extrabold;
+    font-family: raleway-extrabold, arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 23px;
@@ -481,7 +486,7 @@ a {
 
 .latest-projects__title {
     color: #555555;
-    font-family: raleway-semibold;
+    font-family: raleway-semibold, arial, sans-serif;
     font-size: 30px;
     font-weight: 400;
 }
@@ -489,7 +494,7 @@ a {
 .latest-projects__txt {
     margin: 25px 200px 40px;
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: Montserrat, arial, sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
@@ -503,7 +508,7 @@ a {
     background-color: #ffffff;
     
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: Montserrat, arial, sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 21px;
@@ -598,7 +603,7 @@ a {
 .latest-projects__fig-title {
     margin: 0;
     color: #c7b299;
-    font-family: raleway-semibold;
+    font-family: raleway-semibold, arial, sans-serif;
     font-size: 20px;
     font-weight: 500;
 }
@@ -608,7 +613,7 @@ a {
     margin: 0;
     
     color: #d1d1d1;
-    font-family: Montserrat;
+    font-family: Montserrat, arial, sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
@@ -621,7 +626,7 @@ a {
 	background-color: #998675;
 	
 	color: #ffffff;
-	font-family: raleway-extrabold;
+	font-family: raleway-extrabold, arial, sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 23px;
@@ -693,7 +698,7 @@ a {
 .video-presentation__title {
 	margin: 40px 0 25px 0;
 	color: #ffffff;
-	font-family: Raleway;
+	font-family: Raleway, arial, sans-serif;
 	font-size: 30px;
 	font-weight: 500;
 }
@@ -701,7 +706,7 @@ a {
 .video-presentation__txt {
 	margin: 0;
 	color: #ffffff;
-	font-family: Montserrat;
+	font-family: Montserrat, arial, sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 28px;
@@ -710,7 +715,7 @@ a {
 .video-presentation__time {
 	margin: 40px 0 0 0;
 	color: #c7b299;
-	font-family: Montserrat;
+	font-family: Montserrat, arial, sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 24px;
@@ -726,7 +731,7 @@ a {
 
 .mobile-devices__title {
 	color: #555555;
-	font-family: raleway-semibold;
+	font-family: raleway-semibold, arial, sans-serif;
 	font-size: 30px;
 	font-weight: 400;
 }
@@ -735,7 +740,7 @@ a {
 	margin: 40px 0 45px 0;
 	width: 65%;
 	color: #8c8c8c;
-	font-family: Montserrat;
+	font-family: Montserrat, arial, sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 28px;
@@ -745,7 +750,7 @@ a {
 	padding: 0 0 140px 50px;
 	margin: 0;
 	color: #8c8c8c;
-	font-family: Montserrat;
+	font-family: Montserrat, arial, sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 32px;
@@ -783,16 +788,16 @@ a {
 .statistics__number {
 	margin: 70px 0 20px 0;
 	color: #ffffff;
-	font-family: Montserrat;
+	font-family: montserrat-ultralight, arial, sans-serif;
 	font-size: 48px;
-	font-weight: 250;
+	font-weight: 400;
 	line-height: 36px;
 }
 
 .statistics__txt {
 	margin: 0 0 30px 0;
 	color: #c7b299;
-	font-family: Montserrat;
+	font-family: Montserrat, arial, sans-serif;
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 20px;
@@ -834,19 +839,19 @@ a {
 	justify-content: space-between;
 }
 
-.recent-post__span {
+.recent-post__title {
 	width: 100%;
 	color: #555555;
-	font-family: Raleway;
+	font-family: raleway-semibold, arial, sans-serif;
 	font-size: 30px;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 .recent-post__txt {
 	width: 100%;
 	margin: 30px 200px;
 	color: #8c8c8c;
-	font-family: Montserrat;
+	font-family: Montserrat, arial, sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 28px;
@@ -869,7 +874,7 @@ a {
 	background-color: #363636;
 	border-radius: 3px 3px 0 0;
 	color: #ffffff;
-	font-family: Montserrat;
+	font-family: Montserrat, arial, sans-serif;
 	font-size: 24px;
 	font-weight: 300;
 	line-height: 20px;
@@ -885,7 +890,7 @@ a {
 	background-color: #252525;
 	border-radius: 0 0 3px 3px;
 	color: #ffffff;
-	font-family: Roboto;
+	font-family: Roboto, arial, sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 20px;
@@ -936,7 +941,7 @@ a {
 
 .recent-post__figcap-title {
 	color: #555555;
-	font-family: Raleway;
+	font-family: Raleway, arial, sans-serif;
 	font-size: 20px;
 	font-weight: 500;
 }
@@ -948,7 +953,7 @@ a {
 .recent-post__figcap-txt {
 	margin: 17px 0 25px 0;
 	color: #8c8c8c;
-	font-family: Montserrat;
+	font-family: Montserrat, arial, sans-serif;
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 22px;
@@ -961,7 +966,7 @@ a {
 .recent-post__spoiler,
 .recent-post__hid-txt {
 	color: #c7b299;
-	font-family: Montserrat;
+	font-family: Montserrat, arial, sans-serif;
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 20px;
