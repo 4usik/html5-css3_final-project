@@ -131,25 +131,19 @@ a {
     font-weight: 300;
 }
 
+.header__input-search:hover {
+ 	width: 23px;
+  	transition: width 1s ease-out;
+ 	background-position: right;
+}
+
 .header__input-search:focus {
-  width: 300px;
+  width: 200px;
   transition: width 1s ease-out;
   background-position: right;
 }
 
-.header__input-search: {
-  width: 300px;
-  transition: width 1s ease-out;
-  background-position: right;
-}
-
-.header__search-svg {
-	margin: 0 0 0 20px;
-	fill: #ffffff;
-}
-
-.basket-btn:hover,
-.header__search-svg:hover {
+.basket-btn:hover {
     color: #c7b299;
 	fill: #c7b299;
 }
@@ -158,8 +152,7 @@ a {
 	outline: none;
 }
 
-.basket-btn:active,
-.header__search-svg:active {
+.basket-btn:active {
     color: #ffffff;
 	fill: #ffffff;
 }
@@ -170,7 +163,7 @@ a {
 
 /*-----carousel-----*/
 .carousel {
-    padding: 150px 150px 42px 150px;
+    padding: 150px 150px 40px 150px;
     background: url(../img/bgi-template.jpg) 0 0 #565657 no-repeat;
     width: 100%;
 	text-align: center;
@@ -186,10 +179,10 @@ a {
     fill: #a3a2a0;
 }
 
-.carousel__txt {
+.carousel__div-text {
     padding: 200px 0 0 0;
     text-align: center;
-    flex-basis: 45%;
+    flex-basis: 45%
 }
 
 .slide__pre-title {
@@ -269,7 +262,7 @@ a {
 }
 
 .carousel__indicator {
-    margin: -10px 5px 0 0;
+    margin: 0 5px 0 0;
     padding: 10px;
     font-size: 0;
     list-style-type: none;
@@ -543,6 +536,7 @@ a {
 .latest-projects__figure {
     margin: 0;
     padding: 0;
+	position: relative;
 }
 
 .latest-projects__figure:hover img {
@@ -574,6 +568,10 @@ a {
 
 .figure {
 	background-color: #667d83;
+}
+
+.latest-projects-svg:hover {
+	fill: #c7b299;
 }
 
 .latest-projects__figcaption {
