@@ -788,11 +788,11 @@ a {
 }
 
 .statistics__clients {
-    background: url(../img/icon-clients.png) center top no-repeat;
+	fill: #c7b299;
 }
 
 .statistics__number {
-	margin: 70px 0 20px 0;
+	margin: 30px 0 20px 0;
 	color: #ffffff;
 	font-family: montserrat-ultralight, arial, sans-serif;
 	font-size: 48px;
@@ -811,19 +811,19 @@ a {
 }
 
 .statistics__coffee {
-    background: url(../img/icon-cups_of-coffee.png) center top no-repeat;
+	fill: #c7b299;
 }
 
 .statistics__posts {
-    background: url(../img/icon-blog-posts.png) center top no-repeat;
+    fill: #c7b299;
 }
 
 .statistics__likes {
-    background: url(../img/icon-likes.png) center top no-repeat;
+    fill: #c7b299;
 }
 
 .statistics__launch {
-    background: url(../img/icon-launch.png) center top no-repeat;
+    fill: #c7b299;
 }
 
 .sec-statistics div:after {
