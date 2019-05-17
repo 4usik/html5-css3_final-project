@@ -1009,26 +1009,18 @@ summary:focus {
 	font-size: 0;
 }
 
-.recent-post__left {
-	background: url(../img/recent-post-left.png) 0 0 no-repeat;
-	padding: 15px;
-	margin: 40px 0 0 0;
+.recent-post {
+	padding: 0px;
+	margin: 0 8px 0 0;
+	fill: #d1d1d1;
 }
 
-.recent-post__left:hover,
-.recent-post__left:active {
-	background: url(../img/recent-post-left-active.png) 0 0 no-repeat;
+.recent-post:hover {
+	fill: #c7b299;
 }
 
-.recent-post__right {
-	background: url(../img/recent-post-right.png) 0 0 no-repeat;
-	padding: 15px;
-	margin: 40px 0 0 0;
-}
-
-.recent-post__right:hover,
-.recent-post__right:active {
-	background: url(../img/recent-post-right-active.png) 0 0 no-repeat;
+.recent-post:active {
+	fill: #362f2d;
 }
 
 
