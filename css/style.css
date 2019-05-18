@@ -863,14 +863,16 @@ a {
 }
 
 .recent-post__fig-1 {
-	padding: 30px 300px 20px 20px;
+	padding: 20px 0 20px 20px;
 	background: url(../img/recent-posts-1.jpg) 0 0 no-repeat;
 }
 
 .date {
-	padding: 9px 10px;
+	padding: 9px;
 	margin: 0;
 	width: 50px;
+	display: block;
+	text-align: center;
 	background-color: #363636;
 	border-radius: 3px 3px 0 0;
 	color: #ffffff;
@@ -886,8 +888,10 @@ a {
 
 .month {
 	margin: 0;
-	padding: 5px 12px;
+	padding: 5px;
 	width: 50px;
+	display: block;
+	text-align: center;
 	background-color: #252525;
 	border-radius: 0 0 3px 3px;
 	color: #ffffff;
@@ -991,20 +995,22 @@ summary:focus {
 }
 
 .recent-post__fig-2 {
-	padding: 30px 300px 160px 20px;
+	padding: 20px 0 160px 20px;
 	background: url(../img/recent-posts-2.jpg) 0 0 no-repeat;
 }
 
 .recent-post__fig-3 {
-	padding: 30px 300px 160px 20px;
+	padding: 20px 0 160px 20px;
 	background: url(../img/recent-posts-3.jpg) 0 0 no-repeat;
 }
 
+/*
 .recent-post__fig:hover .recent-post__fig-1,
 .recent-post__fig:hover .recent-post__fig-2,
 .recent-post__fig:hover .recent-post__fig-3 {
 	filter: brightness(40%);
 }
+*/
 
 .recent-post__left-right {
 	padding: 40px 0 10px 0;
