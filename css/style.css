@@ -994,15 +994,18 @@ a {
 }
 
 
-/*-----footer-label-----*/
-.sec-footer-label {
-	padding: 140px 405px;
+/*-----sec-label-----*/
+.sec-label {
+	padding: 139px 405px;
 	background: url(../img/bg-footer-label.jpg) 0 0 no-repeat;
 	font-size: 0;
 }
 
+/*
 .partners {
+	
 }
+*/
 
 /*
 .barber-logo {
@@ -1051,6 +1054,7 @@ a {
 
 .waxom-txt {
 	margin: 45px 0 30px 0;
+	color: #555555;
 	color: #555555;
 	font-family: Montserrat;
 	font-size: 14px;
