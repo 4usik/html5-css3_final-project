@@ -260,16 +260,19 @@ a {
 .carousel__next:hover,
 .carousel__previous:hover {
     fill: #d3c1ad;
+	transform: scale(1.3, 1.3);
 }
 
 .carousel__next:active,
 .carousel__previous:active {
     fill: #ffffff;
+	transform: scale(0.8, 0.8);
 }
 
 .carousel__indicator {
-    margin: 0 5px 0 0;
-    padding: 3px;
+    margin: 0 3px 0 0;
+    padding: 5px;
+	background-clip: padding-box;
 	background-color: #ffffff;
 	border: 2px solid transparent;
 	border-radius: 100%;
@@ -282,6 +285,7 @@ a {
 .carousel__indicator:active,
 .carousel__indicator:focus,
 .carousel__indicator:visited {
+	background-clip: content-box;
 	background-color: transparent;
 	border: 2px solid #d3c1ad;
 	border-radius: 100%;
@@ -388,14 +392,33 @@ a {
     left: 345px;
     bottom: 0;
     z-index: 2;
+	transition: left, bottom 700ms;
+	
 }
 
-.realization-ideas__img-center {
-    position: absolute;
-	background-color: #4b443c;
+.realization-ideas__img-left:hover {
+	transform: scale(1.2);
+	z-index: 5;
+}
+
+.realization-ideas__img-left:active,
+.realization-ideas__img-left:focus  {
     left: 575px;
-	bottom: 0;
-    z-index: 3;  
+	right: auto;
+	bottom: 50px;
+    z-index: 5;
+}
+
+.realization-ideas__img-left:hover ~ .realization-ideas__img-center {
+    transform: scale(0.6);
+}
+
+.realization-ideas__img-left:active ~ .realization-ideas__img-center,
+.realization-ideas__img-left:focus ~ .realization-ideas__img-center  {
+    left: 345px;
+    bottom: 0;
+    z-index: 2;
+	transform: scale(0.6);
 }
 
 .realization-ideas__img-right {
@@ -404,7 +427,43 @@ a {
     right: 345px;
 	bottom: 0;
     z-index: 1;
+	transition: left, bottom 700ms;
 }
+
+.realization-ideas__img-right:hover {
+	transform: scale(1.2);
+	z-index: 5;
+}
+
+.realization-ideas__img-right:hover ~ .realization-ideas__img-center {
+    transform: scale(0.6);
+}
+
+.realization-ideas__img-right:active,
+.realization-ideas__img-right:focus  {
+    left: 575px;
+	bottom: 50px;
+    z-index: 5;
+}
+
+.realization-ideas__img-right:active ~ .realization-ideas__img-center,
+.realization-ideas__img-right:focus ~ .realization-ideas__img-center  {
+    right: 345px;
+	left: auto;
+    bottom: 0;
+    z-index: 2;
+	transform: scale(0.6);
+}
+
+.realization-ideas__img-center {
+    position: absolute;
+	background-color: #4b443c;
+    left: 575px;
+	bottom: 0;
+    z-index: 3;
+	transition: left, right, bottom 700ms;
+}
+
 
 
 /*-----aside-----*/
