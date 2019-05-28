@@ -636,17 +636,36 @@ a {
 
 .figure {
 	background-color: #667d83;
+	z-index: 1;
 }
-/* 
 
 .latest-projects-svg {
 	fill: #ffffff;
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	left: 144px;
+	top: 106px;
+	z-index: 3;
 }
 
-.latest-projects-svg:hover {
-	fill: #c7b299;
+.latest-projects-svg-search {
+	fill: #ffffff;
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	margin: 0 auto;
+	left: 198;
+	top: 106px;
+	z-index: 3;
 }
- */
+
+.latest-projects__a:hover .latest-projects-svg,
+.latest-projects__a:hover .latest-projects-svg-search {
+	fill: #ffffff;
+	width: 26px;
+	height: 26px;
+}
 
 .latest-projects__text {
     border: 1px solid #fbfaf8;
