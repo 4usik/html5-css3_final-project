@@ -72,6 +72,15 @@ a {
 	display: flex;
 }
 
+label,
+#header__ul {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ .header__ul {
+  visibility: visible;
+}
+
 .header__ul {
     margin: 0 0 0 205px;
     padding: 0;
@@ -1340,9 +1349,9 @@ footer__recent-posts-time {
 
 /* -------Мобильная версия------- */
 
-@media (max-width: 1000px) {
+@media (max-width: 575.98px) {
 	.container {
-    	width: 768px;
+    	width: 576px;
 /*		outline: 5px solid red;*/
 	}
 
@@ -1350,27 +1359,70 @@ footer__recent-posts-time {
 	/*-----mob_header-----*/
 	.header {
 		padding: 25px;
+		width: 100%;
+		justify-content: space-between;
 	}
-
 
 	.header__nav {
 		padding: 20px 0 0 0;
 		display: flex;
 		flex-wrap: wrap;
 	}
-
+  
+	label {
+		display: block;
+		width: 50px;
+		height: 50px;
+		border: 1px solid #ffffff;
+		padding: 10px;
+		background-size: 100%;
+	}
+	
+	label svg {
+		fill: #ffffff;
+	}
+	
+	label:hover {
+		border: 1px solid #c7b299;
+	}
+	
+	label:hover svg {
+		fill: #c7b299;
+	}
+	
+	label:active {
+		border: 1px solid #ffffff;
+	}
+	
+	label:active svg {
+		fill: #ffffff;
+	}
+	
 	.header__ul {
-		margin: 0 0 0 205px;
-		padding: 0;
-		list-style-type: none;
-		display: flex;
-		flex-wrap: wrap;
+		visibility: hidden;
+		margin: 0 auto;
+		height: auto;
+		width: 100%;
+		flex-direction: column;
+	}
+	
+	.header__ul li {
+		height: 30px;
+		padding: 5px;
+		text-align: center;
+		background-color: #565657;
+		margin-top: 2px;
+	}
+	
+	.basket-btn {
+		display: none;
+	}
+	
+	.header__input-search {
+		display: none;
 	}
 
 /*
-	.header__nav>li {
-		display: inline-block;
-	}
 
 	.header__item {
 		padding: 20px 15px;
@@ -1379,17 +1431,6 @@ footer__recent-posts-time {
 		font-family: Montserrat, arial, sans-serif;
 		font-size: 14px;
 		font-weight: 300;
-	}
-	
-	.basket-btn {
-		padding: 0;
-		margin: 0 0 0 40px;
-
-		width: 0;
-		height: 0;
-
-		border:none;
-		fill: #ffffff;
 	}
 
 	.basket-btn-svg {
